@@ -1,0 +1,228 @@
+
+
+
+# son = 100
+
+
+# while son <= 100:
+#     print(son)
+#     son += 2                                  
+# 
+
+
+#1
+# i = 1
+# while i <= 50:
+#     print(i)
+#     i += 1
+    
+    
+#2
+# son = 50
+# while son >= 1:
+#     print(son)
+#     son -= 1
+
+
+
+
+#1
+i = 1
+while i <= 50:
+    print(i)
+    i += 1
+
+
+#2
+son = 50
+while son >= 1:
+    print(son)
+    son -= 1
+
+
+#3
+son = int(input("Son kiriting: "))
+i = 1
+while i <= son:
+    print(i)
+    i += 1
+
+
+#4
+x= 2
+while x <= 100:
+    print(x)
+    x += 2
+
+
+#5
+j = 1
+while j <= 99:
+    print(j)
+    j += 2
+
+
+#6
+o = 1
+while o <= 10:
+    print("Salom")
+    o += 1
+
+
+#7
+ism = input("Ismingiz: ")
+son = 1
+while son <= 5:
+    print(ism)
+    son += 1
+
+
+#8
+q = 1
+while q <= 10:
+    print(5 * q)
+    q += 1
+
+
+#9
+e = 1
+while e <= 100:
+    if e % 3 == 0:
+        print(e)
+    e += 1
+
+
+#10
+a = 1
+while a <= 200:
+    if a % 5 == 0:
+        print(a)
+    a += 1
+
+
+#11
+raqam = int(input("Nechi gacha?: "))
+w = 1
+yigindi = 0
+while w <= raqam:
+    yigindi += w
+    w += 1
+print(f"1+2+3+...+{raqam}={yigindi}")
+
+
+#12
+z = 2
+yigindi = 0
+while z <= 100:
+    yigindi += z
+    z += 2
+print("Juft sonlar yig'indisi:", yigindi)
+
+
+#13
+t = 1
+yigindi = 0
+while t <= 99:
+    yigindi += t
+    t += 2
+print("Toq sonlar yig'indisi:", yigindi)
+
+
+#14
+togri_parol = "12345"
+
+while True:
+    parol = input("Parol: ")
+
+    if parol == togri_parol:
+        print("To'g'ri.")
+        break
+    else:
+        print("Xato!")
+
+
+#15
+sirli_son = 7
+
+while True:
+    son = int(input("Son: "))
+
+    if son > sirli_son:
+        print("Kattaroq")
+    elif son < sirli_son:
+        print("Kichikroq")
+    else:
+        print("Topdingiz!")
+        break
+
+
+#16
+savol = int(input("Nechi gacha?: "))
+p = 1
+
+while p <= savol:
+    if p % 4 == 0:
+        print(p)
+    p += 1
+
+
+#17
+s = 1
+while s <= 20:
+    print(s, "->", s ** 2)
+    s += 1
+
+
+#18
+f = 1
+while f <= 20:
+    print(f, "->", f ** 3)
+    f += 1
+
+
+#19
+boshlanish = int(input("Boshlanish: "))
+tugash = int(input("Tugash: "))
+
+b = boshlanish
+while b <= tugash:
+    print(b)
+    b += 1
+
+
+#20
+boshlanish = int(input("Boshlanish: "))
+tugash = int(input("Tugash: "))
+
+boshlash = boshlanish
+while boshlash >= tugash:
+    print(boshlash)
+    boshlash -= 1
+
+
+#21
+while True:
+    print("\n1. Salomlashish")
+    print("2. Sonlarni chiqarish")
+    print("3. Juft sonlar")
+    print("4. Chiqish")
+
+    tanlov = int(input("Tanlang: "))
+
+    if tanlov == 1:
+        print("Salom!")
+
+    elif tanlov == 2:
+        c = 1
+        while c <= 10:
+            print(c)
+            c += 1
+
+    elif tanlov == 3:
+        c = 2
+        while c <= 20:
+            print(c)
+            c += 2
+
+
+    
