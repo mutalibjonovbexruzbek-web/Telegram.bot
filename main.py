@@ -1,7 +1,7 @@
 import os
 import random
-from telegram import Update, ReplyKeyboardMarkup # pyright: ignore[reportMissingImports]
-from telegram import ( # pyright: ignore[reportMissingImports]
+from telegram import Update, ReplyKeyboardMarkup
+from telegram.ext import (
     Application,
     CommandHandler,
     MessageHandler,
@@ -14,8 +14,8 @@ from groq import Groq
 # ENVIRONMENT VARIABLES
 # ===========================
 
-TELEGRAM_BOT_TOKEN = os.getenv("8902893893:AAGeTohUfBvq6zOFBQ9SvqhN6lz1WDKUlTs")
-GROQ_API_KEY = os.getenv("redis://red-d9ob2djncjis73bmbir0:6379")
+TELEGRAM_BOT_TOKEN = os.getenv("BOT_TOKEN")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 if not TELEGRAM_BOT_TOKEN:
     raise ValueError("BOT_TOKEN topilmadi!")
